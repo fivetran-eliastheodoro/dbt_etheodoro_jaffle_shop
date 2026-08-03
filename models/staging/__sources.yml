@@ -2,7 +2,8 @@ version: 2
 
 sources:
   - name: ecom
-    schema: raw
+    schema: elias_theodoro_azure_blob
+    database: ts_catalog_demo
     description: E-commerce data for the Jaffle Shop
     tables:
       - name: raw_customers
